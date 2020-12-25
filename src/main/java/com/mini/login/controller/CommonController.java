@@ -20,7 +20,10 @@ public class CommonController {
 
 		log.info("access Denied : " + auth);
 
+
 		model.addAttribute("msg", "접속거절!!");
+
+		model.addAttribute("msg", "Access Denied");
 	}
 
 	@GetMapping("/customLogin")
