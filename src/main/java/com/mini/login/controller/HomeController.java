@@ -1,4 +1,4 @@
-package com.mini.login;
+package com.mini.login.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
